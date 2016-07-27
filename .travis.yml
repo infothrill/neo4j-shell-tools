@@ -18,3 +18,4 @@ deploy:
   on:
     repo: infothrill/neo4j-shell-tools
     branch: '2.3'
+    tags: true
