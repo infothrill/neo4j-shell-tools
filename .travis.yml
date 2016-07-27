@@ -9,8 +9,8 @@ script:
   target/dependency/opencsv-*.jar target/dependency/geoff-*.jar target/dependency/mapdb-*.jar
   target/dependency/target/reflectasm-*.jar target/dependency/kryo-*.jar target/dependency/minlog-*.jar
   target/dependency/objenesis-*.jar
-- ls -la
 deploy:
+  skip_cleanup: true
   provider: releases
   api_key:
     secure: QtasIwbYaRkiaaWR4E6xuxM2x6nFArLWaakmt0wYivnjgY5N60Ke8Ed1WyvTTTAeXzC41tQwjWa1Y5XvqflDEuh8ePgZaTq9pQdK0mNMvbgYJ92fKv0dvvPeKAGSTcD3TsP1TBimdymdBPsAMZE4UFIa2BjrpNDkkZrq15vJg/uqWm2ETqwsUxI0vrGJpPSheO9wq6BlrFNGLIytV+/z5qMUxH02Jqc5Hg9gJbKsz8BNlNLVVf523TihSjttfPXBy0lrrzX7nnGsD6hbzuhU11WNXHXt/amaLFN2u6AbjEDSJe8oIXJwcSzK7ds7CFopAxAvr7zHzM+SDgCyXO9jPIQ6TjJWX67m16jVvxDt/fJH8tT5dvKUf4Loqm/Iv9ETMa9LxDvad7B1aXDDRMyVeZG3DahTkD8SQExrJAA8eAoHfSxwD8mDuja/u37WtqFL1vPaFAiXwUCTWieoseve1LCKnhy8CdfSI7jMWmp5/0er2NLb0KMTed9OgbH4Fe5dIlN6PmZN1MlQMbNg6qNgzIYr9JWL/qGpjGH/4G7W/11M57xJydS7EVyrz/PEGrXKDExHre7CrmLmG+NykJBjO0jG5ugUKTr4V9qpCtyeBpS7M6LVrX9J3SwK1XvnOnLzlKifYAXuvQDbpAjj1twMZOovrbFfBvnYCzkXD33bDag=
